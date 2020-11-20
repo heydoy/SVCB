@@ -93,6 +93,18 @@ p {
     02.HELPER
 ====================*/
 
+#video-baroapp {
+
+    max-width: 75%;
+    max-height: 75%;
+}
+
+
+.baro_highlight {
+    color: #4870D2;
+}
+
+
 .bg_overlay_cover_on {
     background-color:#3f3fa8;
     position: absolute;
@@ -126,6 +138,15 @@ p {
     background: #3f3fa8;
     font-weight: bold;
     color: #ffffff;
+}
+
+.btn_baroapp {
+    width: 90%; 
+    border-radius: 2em; 
+    color: #000; 
+    font-size: 0.95em; 
+    font-weight: 600; 
+    background-color:#F4F2F3;
 }
 
 .btn_custom:hover,
