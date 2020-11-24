@@ -19,10 +19,14 @@ input::placeholder {
     margin-bottom: 0px;
     height: 330px;
 }
+.search_form {
+    opacity: 0.8;
+}
 
 @media screen and (max-width:990px){
     .search_form {
-        margin-top : 118px;
+        margin-top : 60px;
+        width: 80%;
     }
     .header_bg {
         height: 280px;
@@ -33,12 +37,12 @@ input::placeholder {
 
 @media screen and (max-width: 767px){
     .search_form {
-        margin-top : 130px;
+        margin-top : 80px;
     }
     .header_bg {
         padding-top: 48px;
-        background-size: 160px;
-        background-position: calc(100% - 56px) 102px;
+        background-size: 190px;
+        background-position: calc(100% - 56px) 72px;
 
     }
 }
