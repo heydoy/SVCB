@@ -143,12 +143,18 @@ p {
 }
 
 .btn_baroapp {
-    width: 90%; 
+    padding: 12px 40px;
+    width: 95%; 
     border-radius: 2em; 
     color: #000; 
     font-size: 0.95em; 
     font-weight: 600; 
+    transition: all 0.5s;
+    letter-spacing: 0.6px;
     background-color:#F4F2F3;
+    box-shadow: none !important;
+    text-transform: uppercase;
+    outline: none !important;
 }
 
 .btn_border {
