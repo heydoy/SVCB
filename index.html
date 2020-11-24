@@ -199,12 +199,12 @@
                     <div class="row">
                         <div class="col-lg-12 mt-2 ml-3"">
                             <div>
-                                <button class="btn-light btn_baroapp">키워드로 관공서 및 가게를 <i class="baro_highlight">BARO 전화 연결</i></a>
+                                <button class="btn-light btn_baroapp" onclick="setOfficeTime()" type="button">키워드로 관공서 및 가게를 <i class="baro_highlight">BARO 전화 연결</i></a>
                             </div>
                         </div>
                         <div class="col-lg-12 mt-2 ml-3">
                             <div>
-                                <button class="btn-light btn_baroapp">내 폰에 저장된 연락처로 <i class="baro_highlight">BARO 전화 연결</i></a>
+                                <button class="btn-light btn_baroapp" onclick="setCallingTime()" type="button">내 폰에 저장된 연락처로 <i class="baro_highlight">BARO 전화 연결</i></a>
                             </div>
                         </div>
                         <div class="col-lg-12 mt-2 ml-3">
@@ -214,27 +214,27 @@
                         </div>
                         <div class="col-lg-12 mt-2 ml-3">
                             <div>
-                                <button class="btn-light btn_baroapp">지도와 내비게이션도 단번에 보여주는 <i class="baro_highlight">BARO</i></a>
+                                <button class="btn-light btn_baroapp" onclick="setMapTime()" type="button">지도와 내비게이션도 단번에 보여주는 <i class="baro_highlight">BARO</i></a>
                             </div>
                         </div>
                         <div class="col-lg-12 mt-2 ml-3">
                             <div>
-                                <button class="btn-light btn_baroapp">광역키워드를 통해 내 주변 <i class="baro_highlight">BARO 검색!</i></a>
+                                <button class="btn-light btn_baroapp" onclick="setKeywordTime()" type="button">광역키워드를 통해 내 주변 <i class="baro_highlight">BARO 검색!</i></a>
                             </div>
                         </div>
                         <div class="col-lg-12 mt-2 ml-3">
                             <div>
-                                <button class="btn-light btn_baroapp">오늘 저녁 출출할 땐? <i class="baro_highlight">BARO 배달</i>로 한번에!</a>
+                                <button class="btn-light btn_baroapp" onclick="setDeliveryTime()" type="button">오늘 저녁 출출할 땐? <i class="baro_highlight">BARO 배달</i>로 한번에!</a>
                             </div>
                         </div>
                         <div class="col-lg-12 mt-2 ml-3">                            
                             <div>
-                                <button class="btn-light btn_baroapp">포인트 모으면 쏠쏠한 <i class="baro_highlight">리워드를 주는 BARO</i></a>
+                                <button class="btn-light btn_baroapp" onclick="setRewardTime()" type="button">포인트 모으면 쏠쏠한 <i class="baro_highlight">리워드를 주는 BARO</i></a>
                             </div>
                         </div>
                         <div class="col-lg-12 mt-2 ml-3">
                             <div>
-                                <button class="btn-light btn_baroapp">ARS로 간편하게 <i class="baro_highlight">BAROPASS 전자출입명부</i></a>
+                                <button class="btn-light btn_baroapp" onclick="setPassTime()" type="button">ARS/QR로 간편 <i class="baro_highlight">BAROPASS 전자출입명부</i></a>
                             </div>
                         </div>
                         <div class="col-lg-12 mt-2 ml-3">
@@ -246,15 +246,46 @@
                         
                     </div>
                 </div>
-                <div class="col-lg-5 mt-3 mb-3 pb-0">
+                <div class="col-lg-5 mt-2 mb-3 pb-0">
                     <div class="img_about ml-7 mb-1 p-1" >
                         <!--
                         <img src="images/holding-phone-baroapp-long.png" alt="" class="img-fluid d-block">
                         -->
-                        <video playsinline muted autoplay loop id="video-baroapp" class="ml-5">
+                        <video playsinline muted autoplay loop id="videoBaroapp" class="ml-5">
                             <source src="video/baroapp-play.mp4" type="video/mp4">
                             <strong> Your browser does not support the video tag.</strong>
                         </video>
+                        <script>
+                            var vid = document.getElementById("videoBaroapp");
+                            function setDeliveryTime() { 
+                            // 중국집 - 바로배달
+                            vid.currentTime=17;
+                            }
+                            function setMapTime() { 
+                            // 카카오맵
+                            vid.currentTime=34;
+                            }
+                            function setOfficeTime() { 
+                            // 관공서, 가게
+                            vid.currentTime=43;
+                            }
+                            function setKeywordTime() { 
+                            // 맥도날드 가산점 - 광역키워드
+                            vid.currentTime=56;
+                            }
+                            function setCallingTime() { 
+                            // 연락처 전화연결
+                            vid.currentTime=68;
+                            }
+                            function setPassTime() { 
+                            // 전자출입명부 
+                            vid.currentTime=87;
+                            }
+                            function setRewardTime() { 
+                            // 전자출입명부 
+                            vid.currentTime=106;
+                            } 
+                        </script>
                     </div>
                 </div>
             </div>
@@ -782,5 +813,6 @@
 
     <script src="js/custom.js"></script>
     <script src="js/inspect-element.js"></script>
+    
 </body>
 </html>
