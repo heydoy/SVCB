@@ -1,3 +1,13 @@
+.text_negative {
+    color:#E95000;
+}
+
+.btn_table {
+    width: 120px; 
+    height: 35px;
+    padding: 5px; 
+    margin: -3px;
+}
 /*========================
           SEARCH
 =========================*/
