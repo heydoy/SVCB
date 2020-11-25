@@ -80,6 +80,9 @@ button {
     outline: none !important;
 }
 
+
+
+
 p {
     font-family: 'Gmarket Sans';
     font-style: normal !important;
@@ -90,6 +93,9 @@ p {
 }
 
 
+p>a {
+    color: #ddd;
+}
 
 /*==================
     02.HELPER
