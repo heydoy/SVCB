@@ -104,7 +104,7 @@ input::placeholder {
     font-size: 14.2px;
     background-color: transparent !important;
     padding: 15px 0;
-    margin: 0 7px;
+    margin: 0 8px;
     transition: all 0.4s;
 }
 
@@ -138,4 +138,5 @@ input::placeholder {
 
 .custom_nav_menu_search .logo  {
     display: inline-block;
+    
 }
