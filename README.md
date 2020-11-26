@@ -4,7 +4,9 @@ Homepage Renewal :innocent:
 [DEMO LINK](https://svcb-dull.netlify.app)
 
 
-### I like the part where... 
+
+
+## I like the part where... 
 - [x] design <- **the biggest**
 - [x] [search](https://svcb-dull.netlify.app/search.html) 's header  
 - [x] footer's blurriness
