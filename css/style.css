@@ -1,29 +1,6 @@
-/*  Theme Name: Rexzon - Responsive Software Html5 Landing Page Template
-    Author: Saptavarana
-    Version: 1.0.0
-    Created:September 2018
-    File Description:Main Css file of the template
-*/
-
 
 /***************
-
-1.BASIC
-2.HELPER
-3.NAVBAR
-4.HOME
-5.ABOUT US
-6.CTA
-7.SERVICES 
-8.FEATURES
-9.PORTFOLIO
-10.TESTIMONIAL
-11.PRICING PLAN
-12.GREAT PEOPLE
-13.CONTACT US 
-14.FOOTER
-15.RESPONSIVE
-
+       font
 *****************/
 
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,600|Rubik:400,500');
@@ -46,7 +23,7 @@
 
 
 /*=================
-    01.BASIC
+    default
 ===================*/
 
 body {
@@ -97,8 +74,7 @@ p>a {
     color: #ddd;
 }
 
-/*==================
-    02.HELPER
+/*=================
 ====================*/
 
 #videoBaroapp {
@@ -247,9 +223,9 @@ p>a {
 }
 
 
-/*======================
-    03  NAVBAR
-=======================*/
+/*=====================
+      navigation
+======================*/
 
 .custom_nav_menu ,
 .custom_nav_menu_sub
@@ -367,7 +343,7 @@ p>a {
 
 
 /*================
-    04.HOME
+     home
 ==================*/
 
 .bg_home_tech_soft {
@@ -407,28 +383,7 @@ p>a {
 }
 
 
-/*------------------
-    HOME - 4
--------------------*/
 
-.home_clip_path {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 82%, 25% 100%, 0 82%);
-    clip-path: polygon(0 0, 100% 0, 100% 82%, 25% 100%, 0 82%);
-}
-
-
-/*-------------------
-    HOME - 5
---------------------*/
-
-.home_bg_gradiant {
-    background: linear-gradient(to right, #565b7e, #907f7f);
-}
-
-
-/*-------------------
-    HOME - 6
---------------------*/
 
 .up-index {
     z-index: 2;
@@ -436,7 +391,7 @@ p>a {
 
 
 /*====================
-  05.  ABOUT US
+        about
 ====================*/
 
 .about_details {
@@ -448,10 +403,6 @@ p>a {
     color: #3A4270;
 }
 
-.about_details_box {
-    background: #ffffff;
-    box-shadow: 0 10px 15px -2px rgba(158, 152, 153, 0.2);
-}
 
 .text_muted{
    color: #868AA5;
@@ -459,90 +410,9 @@ p>a {
 }
 
 
-/*===================
-    0.6  CTA
-====================*/
-
-.small_cta_desc {
-    font-size: 26px;
-}
 
 
-/*====================
-   0.7 SERVICES
-=====================*/
-
-.services_boxes .services_icon i {
-    height: 65px;
-    text-align: center;
-    width: 65px;
-    display: inline-block;
-    font-size: 26px;
-    border-radius: 50%;
-    line-height: 65px;
-}
-
-.bg_first_service {
-    background-color: #F7E306;
-}
-
-.bg_second_service {
-    background-color: #0EB5F9;
-}
-
-.bg_third_service {
-    background-color: #E69021;
-}
-
-.bg_four_service {
-    background-color: #CE5598;
-}
-
-
-/*=======================
-    0.8    FEATURES
-=======================*/
-
-.features_box .features_icon i {
-    max-width: 45px;
-    float: left;
-    margin-right: 20px;
-    font-size: 36px;
-}
-
-.features_details {
-    overflow: hidden;
-}
-
-.features_header h3 {
-    max-width: 450px;
-}
-
-.features_box {
-    background: #254FD7;
-}
-
-
-/*=====================
-   0.9 TESTIMONIAL
-======================*/
-
-.testi_box {
-    max-width: 600px;
-}
-
-.testi_box .review_box {
-    font-size: 20px;
-    line-height: 1.6;
-}
-
-.testi_box .testi_icon {
-    font-size: 48px;
-}
-
-.client_name {
-    font-size: 16px;
-}
+/*====================*/
 
 .owl-theme .owl-controls .owl-page span {
     display: block;
@@ -555,106 +425,20 @@ p>a {
 }
 
 
-/*====================
-  10 PORTFOLIO
-=====================*/
-
-#menu-filter li:not(:last-child)::after {
-    content: "/";
-    margin-left: 0.8125em;
-    opacity: 0.4;
-}
-
-#menu-filter li a {
-    padding: 10px;
-    color: #d4d4d4;
-}
-
-#menu-filter li a.active {
-    color: #505050;
-}
-
-
-/*====================
-  11. PRICING PLAN
-=====================*/
-
-.price_box {
-    padding: 40px;
-}
-
-.plan-name p {
-    color: #5E5E5E;
-    font-size: 16px;
-}
-
-.list_price_features {
-    padding: 20px 0px;
-}
-
-.list_price_features p {
-    margin-bottom: 10px;
-}
-
-.price_tag_heading span {
-    font-size: 14px;
-    font-weight: normal;
-}
-
-.price_tag_heading h2 {
-    font-size: 52px;
-}
-
-.price_tag_heading sub {
-    font-size: 22px;
-}
-
-.price_box.active {
-    border: 3px solid #176af7;
-    border-radius: 8px;
-    position: relative;
-    overflow: hidden;
-}
-
-
-/*====================
-  12. GREAT PEOPLE
-====================*/
-
 .logo_img img {
     max-height: 100px;
     width: auto !important;
 }
 
 
-/*=====================
-    13. CONTACT US
-======================*/
-
-.corp_form_custom .form-control {
-    height: 50px;
-    font-size: 16px;
-    border-color: #eae7e7;
-}
-
 textarea.form-control {
     height: auto !important;
 }
 
-.corp_form_custom .form-control:focus {
-    border-color: #ff4f5b !important;
-    box-shadow: none;
-    outline: 0;
-}
-
-.corp_form_custom {
-    box-shadow: 0 0 35px 1px #efefef;
-    padding: 40px;
-}
 
 
 /*==================
-    14.FOOTER
+       footer
 ====================*/
 
 .footer_background {
@@ -695,7 +479,7 @@ textarea.form-control {
 
 
 /*=====================
-    15. RESPONSIVE
+        @media
 =======================*/
 
 @media (max-width: 768px) {
