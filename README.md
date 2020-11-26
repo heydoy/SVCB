@@ -1,7 +1,7 @@
 # SVCB_homepage
 Homepage Renewal :innocent:
 
-[DEMO LINK](svcb-dull.netlify.app)
+[DEMO LINK](https://svcb-dull.netlify.app)
 
 
 
